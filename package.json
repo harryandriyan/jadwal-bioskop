@@ -1,0 +1,28 @@
+{
+  "name": "jadwal-bioskop",
+  "version": "1.0.0",
+  "description": "Jadwal Bioskop Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryandriyan/jadwal-bioskop.git"
+  },
+  "keywords": [
+    "javascript",
+    "hapijs",
+    "nodejs"
+  ],
+  "author": "harry.andriyan@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harryandriyan/jadwal-bioskop/issues"
+  },
+  "homepage": "https://github.com/harryandriyan/jadwal-bioskop#readme",
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
+}
