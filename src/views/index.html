@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jadwal Bioskop Indonesia</title>
+        <link rel="stylesheet" type="text/css" href="/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <center>
+                <div class="row">
+                    <div class="col-m-12">
+                        <h3>Jadwal Bioskop Indonesia</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon">Kota</div>
+                                    <select class="form-control" id="list-kota"></select>
+                                </div>
+                            </div>
+                            <button type="button" id="search-btn" name="button" class="btn btn-lg btn-info">
+                                Lihat Jadwal
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row" id="judul-jadwal"></div>
+                <div class="row" id="list-jadwal"></div>
+            </center>
+        </div>
+        <script src="/jquery-3.1.1.min.js"></script>
+        <script src="/bootstrap.min.js"></script>
+        <script src="/app.js"></script>
+    </body>
+</html>
