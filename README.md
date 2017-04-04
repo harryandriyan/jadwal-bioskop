@@ -13,7 +13,7 @@ Install node_modules :
 > npm install  
 
 Start the Server :
-> npm run dev  
+> npm run start  
 
 Open your browser and go to :
 > http://localhost:3000/
