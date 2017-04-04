@@ -60,6 +60,7 @@ jQuery(document).ready(function($) {
                     '<p>Genre : <span class="label label-success">'+value.genre+'</span></p>'+
                     '<p>Durasi : <span class="label label-warning">'+value.duration+'</span></p>'+
                   '</div>'+
+                  '<div class="overin" style="height: 230px!important;overflow: auto;">'+
                   '<table class="table table-hover table-stripped">'+
                       '<thead>'+
                         '<tr>'+
@@ -70,10 +71,8 @@ jQuery(document).ready(function($) {
                       '</thead>'+
                       '<tbody>'+ listJadwal +'</tbody>'+
                   '</table>'+
-                '</div></div>';
+                '</div></div></div>';
         });
-
-        console.log(data);
 
         $("#judul-jadwal").html(judul);
         $("#list-jadwal").html(list);

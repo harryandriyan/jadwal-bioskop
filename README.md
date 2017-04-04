@@ -2,6 +2,8 @@
 
 Cari Jadwal Bioskop Indonesia
 
+![alt text](https://media.giphy.com/media/2eGoTjq7byYX6/giphy.gif "Jadwal Bioskop Indonesia")
+
 ### Installation :
 Open Terminal, and clone this repo:  
 > git clone https://github.com/harryandriyan/jadwal-bioskop
